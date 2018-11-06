@@ -194,7 +194,7 @@ import { withScriptjs,
  				   * GOOGLEAPIS
  				   */
 				   
-				  googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyATVPVT5mPO5mq7VithJ4NvjDainPaT0N8"
+				  googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=[Insert Client Secret Key Here!]"
 				  loadingElement={<div style={{ height: `100%` }} />}
 				  containerElement={<div style={{ height: `100%`, width: `100%` }} />}
 				  mapElement={<div style={{ height: `100%` }} />}

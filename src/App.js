@@ -9,7 +9,7 @@ import superagentRequest              from 'superagent'
  * FOURSQUARE API
  */
 
-const url = 'https://api.foursquare.com/v2/venues/search?r=json&v=20140806&ll=37.646152,-77.511429&client_id= D1VJ2XOF1MHNEZZWH5QRE01VD5XTHKFIKPYNYALW01FIG1HC&client_secret= PKPVW4OEHCINIECKRKCRQNA2DT4DVRIORYQYYA5EYDUNJK2W'
+const url = 'https://api.foursquare.com/v2/venues/search?r=json&v=20140806&ll=37.646152,-77.511429&client_id= [Insert Client ID Key Here!]&client_secret= [Insert Client Secret Key Here!]'
 
 class App extends Component {
 

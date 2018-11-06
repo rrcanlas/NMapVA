@@ -13,7 +13,7 @@ This application was designed and built using the framework of [:electron: React
 
 ## How To Begin 
       
-  1. Clone the starter code from this [repository](https://github.com/rrcanlas/VA-Locator).
+  1. Clone the starter code from this [repository](https://github.com/rrcanlas/NMapVA).
 
   2. Create an account in the [Google Maps API](https://cloud.google.com/maps-platform/) to get a key. Where the value of the key parameter located at the `NMReact/src/Gmap.js` will be inserted in Line 197:
 
