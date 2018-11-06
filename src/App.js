@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import                           './App.css'
 import Gmap                 from './Gmap'
 import Glocation            from './Glocation'
-import superagentRequest              from 'superagent'
+import superagentRequest    from 'superagent'
 
 /*
  * fetch data from  

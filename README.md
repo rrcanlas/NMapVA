@@ -3,7 +3,9 @@
 
 This application was designed and built using the framework of [:electron: React](https://github.com/facebook/create-react-app), [Superagent](https://www.npmjs.com/package/superagent) ajax library, [Foursquare](https://foursquare.com) for the API and the [Snazzy Maps](https://snazzymaps.com) *Designed by Matiss from Datateks* for a pre-built map styles. 
 
-## Goal
+Here's the [Live NMapVA app](https://rrcanlas.github.io/NMapVA/).
+
+## Goal 
 
  * To design patterns and UI libraries like [:electron: React](https://github.com/facebook/create-react-app) that can assist in developing a manageable codebase. It can decrease the time required in developing an application that can also provide utilities. 
 
@@ -15,11 +17,11 @@ This application was designed and built using the framework of [:electron: React
       
   1. Clone the starter code from this [repository](https://github.com/rrcanlas/NMapVA).
 
-  2. Create an account in the [Google Maps API](https://cloud.google.com/maps-platform/) to get a key. Where the value of the key parameter located at the `NMReact/src/Gmap.js` will be inserted in Line 197:
+  2. Create an account in the [Google Maps API](https://cloud.google.com/maps-platform/) to get a key. Where the value of the key parameter located at the `NMReact/src/Gmap.js` will be inserted in:
 
      `googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=[Insert Key Here!]"`
 
-  3. Create an account in the [Foursquare](https://foursquare.com) to obtain a key where the value of the key parameter located at the `NMReact/src/App.js` will be inserted in Line 12:
+  3. Create an account in the [Foursquare](https://foursquare.com) to obtain a key where the value of the key parameter located at the `NMReact/src/App.js` will be inserted in:
 
      url = `'https://api.foursquare.com/v2/venues/search?r=json&v=20140806&ll=37.646152,-77.511429&client_id=` `[Insert Client ID Key Here!]`&client_secret=`[Insert Client Secret Key Here!]`
 
