@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://rrcanlas.github.io/NMapVA/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-google-maps": "^9.4.5",
@@ -12,6 +11,7 @@
     "superagent": "^4.0.0-beta.5"
   },
   "scripts": {
+    "deploy" : "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -29,6 +29,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "sw-precache-webpack-plugin": "^0.11.5"
   }
 }
