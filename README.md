@@ -3,8 +3,6 @@
 
 This application was designed and built using the framework of [:electron: React](https://github.com/facebook/create-react-app), [Superagent](https://www.npmjs.com/package/superagent) ajax library, [Foursquare](https://foursquare.com) for the API and the [Snazzy Maps](https://snazzymaps.com) *Designed by Matiss from Datateks* for a pre-built map styles. 
 
-Here's the [Live NMapVA app](https://rrcanlas.github.io/NMapVA/).
-
 ## Goal 
 
  * To design patterns and UI libraries like [:electron: React](https://github.com/facebook/create-react-app) that can assist in developing a manageable codebase. It can decrease the time required in developing an application that can also provide utilities. 
